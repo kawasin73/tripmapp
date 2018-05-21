@@ -1,5 +1,7 @@
 # tripmap
 
+fork from [tripmap](https://github.com/kawasin73/tripmapp)
+
 ## 利用するコンポーネント
 
 ### サーバー側
@@ -20,6 +22,11 @@
 ## 作業コマンド
 
 ### heroku
+
+```
+# in psql
+CREATE EXTENSION postgis;
+```
 
 ```
 # buildpacks
