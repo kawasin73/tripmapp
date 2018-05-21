@@ -23,7 +23,7 @@ def teardown_request(exception):
 def index():
     return render_template('index.html')
 
-
+1
 @app.route("/clip/<user>", methods=['POST'])
 def post_clip(user):
     data = json.loads(request.data)
